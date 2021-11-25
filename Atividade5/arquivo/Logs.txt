@@ -1,0 +1,201 @@
+Tamanho: 1
+	PCB - PID: 0	EP: EXECUTANDO	TP: 0	CP: 0	nES: 0	nCPU: 0		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:0] 	CP:0
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: angel 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: angel 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: angel 
+Tamanho: 0
+	PCB - PID: 0	EP: TERMINADO	TP: 1	CP: 1	nES: 0	nCPU: 1		Situacao: WAKUP
+.	Troca de Contexto de EXECUTANDO para TERMINADO
+Tamanho: 0
+	PCB - PID: 0	EP: TERMINADO	TP: 1	CP: 1	nES: 0	nCPU: 1		Situacao: WAKUP
+	Terminado!
+Tamanho: 1
+	PCB - PID: 1	EP: EXECUTANDO	TP: 0	CP: 0	nES: 0	nCPU: 0		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:1] 	CP:0
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: angel 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: angel 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 1 	bufferDados: 
+Tamanho: 0
+	PCB - PID: 1	EP: PRONTO	TP: 1	CP: 1	nES: 0	nCPU: 1		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 3
+	PCB - PID: 2	EP: EXECUTANDO	TP: 1	CP: 1	nES: 0	nCPU: 1		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:2] 	CP:1
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: angel1 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: angel1 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: angel1 
+Ciclo [Processo:2] 	CP:2
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: angel1 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: angel1 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: angel1 rodrigues 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: angel1 rodrigues 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: angel1 rodrigues 
+Ciclo [Processo:2] 	CP:3
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: angel1 rodrigues 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: angel1 rodrigues 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: angel1 rodrigues ferreira 
+.RC - 	empty: 0 	full: 3 	mutex: 0 	bufferDados: angel1 rodrigues ferreira 
+.RC - 	empty: 0 	full: 3 	mutex: 1 	bufferDados: angel1 rodrigues ferreira 
+Tamanho: 0
+	PCB - PID: 2	EP: PRONTO	TP: 4	CP: 4	nES: 0	nCPU: 2		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 4
+	PCB - PID: 1	EP: EXECUTANDO	TP: 1	CP: 1	nES: 0	nCPU: 1		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:1] 	CP:1
+.RC - 	empty: 0 	full: 3 	mutex: 0 	bufferDados: angel1 rodrigues ferreira 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: angel1 rodrigues ferreira 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: rodrigues ferreira 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: rodrigues ferreira 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: rodrigues ferreira 
+Ciclo [Processo:1] 	CP:2
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: rodrigues ferreira 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: rodrigues ferreira 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: ferreira 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ferreira 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: ferreira 
+Ciclo [Processo:1] 	CP:3
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ferreira 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: ferreira 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 1 	bufferDados: 
+Tamanho: 1
+	PCB - PID: 1	EP: PRONTO	TP: 4	CP: 4	nES: 0	nCPU: 2		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 2
+	PCB - PID: 2	EP: EXECUTANDO	TP: 4	CP: 4	nES: 0	nCPU: 2		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:2] 	CP:4
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: rodrigues2 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: rodrigues2 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: rodrigues2 
+Ciclo [Processo:2] 	CP:5
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: rodrigues2 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: rodrigues2 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: rodrigues2 ferreira1 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: rodrigues2 ferreira1 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: rodrigues2 ferreira1 
+Tamanho: 0
+	PCB - PID: 2	EP: TERMINADO	TP: 6	CP: 6	nES: 0	nCPU: 3		Situacao: WAKUP
+.	Troca de Contexto de EXECUTANDO para TERMINADO
+Tamanho: 0
+	PCB - PID: 2	EP: TERMINADO	TP: 6	CP: 6	nES: 0	nCPU: 3		Situacao: WAKUP
+	Terminado!
+Tamanho: 3
+	PCB - PID: 1	EP: EXECUTANDO	TP: 4	CP: 4	nES: 0	nCPU: 2		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:1] 	CP:4
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: rodrigues2 ferreira1 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: rodrigues2 ferreira1 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: ferreira1 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ferreira1 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: ferreira1 
+Ciclo [Processo:1] 	CP:5
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ferreira1 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: ferreira1 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 1 	bufferDados: 
+Tamanho: 1
+	PCB - PID: 1	EP: PRONTO	TP: 6	CP: 6	nES: 0	nCPU: 3		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 3
+	PCB - PID: 2	EP: EXECUTANDO	TP: 6	CP: 6	nES: 0	nCPU: 3		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:2] 	CP:6
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: ange3l 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ange3l 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: ange3l 
+Ciclo [Processo:2] 	CP:7
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: ange3l 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: ange3l 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: ange3l 1 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: ange3l 1 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: ange3l 1 
+Ciclo [Processo:2] 	CP:8
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: ange3l 1 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: ange3l 1 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: ange3l 1 2 
+.RC - 	empty: 0 	full: 3 	mutex: 0 	bufferDados: ange3l 1 2 
+.RC - 	empty: 0 	full: 3 	mutex: 1 	bufferDados: ange3l 1 2 
+Tamanho: 0
+	PCB - PID: 2	EP: PRONTO	TP: 9	CP: 9	nES: 0	nCPU: 4		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 4
+	PCB - PID: 1	EP: EXECUTANDO	TP: 6	CP: 6	nES: 0	nCPU: 3		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:1] 	CP:6
+.RC - 	empty: 0 	full: 3 	mutex: 0 	bufferDados: ange3l 1 2 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: ange3l 1 2 
+.RC - 	empty: 0 	full: 2 	mutex: 0 	bufferDados: 1 2 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: 1 2 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: 1 2 
+Ciclo [Processo:1] 	CP:7
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: 1 2 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 1 2 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 2 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 2 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: 2 
+Ciclo [Processo:1] 	CP:8
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 2 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 2 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 1 	bufferDados: 
+Tamanho: 1
+	PCB - PID: 1	EP: PRONTO	TP: 9	CP: 9	nES: 0	nCPU: 4		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
+Tamanho: 2
+	PCB - PID: 2	EP: EXECUTANDO	TP: 9	CP: 9	nES: 0	nCPU: 4		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:2] 	CP:9
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 3 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 3 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: 3 
+Ciclo [Processo:2] 	CP:10
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 3 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 3 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 3 4 
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: 3 4 
+.RC - 	empty: 1 	full: 2 	mutex: 1 	bufferDados: 3 4 
+Tamanho: 0
+	PCB - PID: 2	EP: TERMINADO	TP: 11	CP: 11	nES: 0	nCPU: 5		Situacao: WAKUP
+.	Troca de Contexto de EXECUTANDO para TERMINADO
+Tamanho: 0
+	PCB - PID: 2	EP: TERMINADO	TP: 11	CP: 11	nES: 0	nCPU: 5		Situacao: WAKUP
+	Terminado!
+Tamanho: 3
+	PCB - PID: 1	EP: EXECUTANDO	TP: 9	CP: 9	nES: 0	nCPU: 4		Situacao: WAKUP
+.	Troca de Contexto de PRONTO para EXECUTANDO
+Ciclo [Processo:1] 	CP:9
+.RC - 	empty: 1 	full: 2 	mutex: 0 	bufferDados: 3 4 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 3 4 
+.RC - 	empty: 1 	full: 1 	mutex: 0 	bufferDados: 4 
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 4 
+.RC - 	empty: 2 	full: 1 	mutex: 1 	bufferDados: 4 
+Ciclo [Processo:1] 	CP:10
+.RC - 	empty: 2 	full: 1 	mutex: 0 	bufferDados: 4 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 4 
+.RC - 	empty: 2 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 0 	bufferDados: 
+.RC - 	empty: 3 	full: 0 	mutex: 1 	bufferDados: 
+Tamanho: 1
+	PCB - PID: 1	EP: PRONTO	TP: 11	CP: 11	nES: 0	nCPU: 5		Situacao: SLEEP
+.	Troca de Contexto de EXECUTANDO para PRONTO
